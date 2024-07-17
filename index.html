@@ -28,15 +28,23 @@
       h2 {
         font-size: 1.2em;
       }
+      @media screen and (max-width: 899px) {
+        html {
+          font-size: 1.7em;
+        }
+        article {
+          padding: 0 5vw;
+        }
+      }
+      @media screen and (max-width: 499px) {
+        html {
+          font-size: 1.4em;
+        }
+      }
       @media screen and (min-width: 900px) {
         article {
           width: 800px;
           margin: 0 auto;
-        }
-      }
-      @media screen and (max-width: 899px) {
-        article {
-          padding: 0 5vw;
         }
       }
       @media print {
